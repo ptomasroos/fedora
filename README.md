@@ -87,6 +87,14 @@ sudo mv idea* /opt/idea
 sudo ln -s /opt/idea/bin/idea.sh /usr/local/bin/idea
 ```
 
+##sublime
+```
+cd /tmp/
+wget https://gist.githubusercontent.com/simonewebdesign/8507139/raw/bb380e1fb290f75458ec8aa8ec8ba2e1f259d81f/install_sublime_text.sh
+chmod +x install_sublime_text.sh
+sudo ./install_sublime_text.sh
+```
+
 ## dotfiles
 ```
 cd ~
