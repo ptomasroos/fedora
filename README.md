@@ -2,6 +2,8 @@
 
 This is the installation guide how to install Fedora according to my regular setup conventions.
 
+![Image of desktop](https://raw.githubusercontent.com/ptomasroos/home/master/screenshot.png)
+
 ## update
 
 Prefer to run this update proceedure through text-mode (e in grub + run level 3 at the end). The reason is I got a bunch of problem when trying to upgrade all packages through gnome.
