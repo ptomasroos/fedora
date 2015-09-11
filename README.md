@@ -62,7 +62,7 @@ curl -sL https://rpm.nodesource.com/setup | bash -
 sudo yum install -y nodejs
 ```
 
-# dotfiles
+## dotfiles
 ```
 cd ~
 wget https://raw.githubusercontent.com/ptomasroos/home/master/.zshrc -O .zshrc
