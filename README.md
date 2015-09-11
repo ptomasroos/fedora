@@ -76,6 +76,17 @@ does not work with Fedora 21 + 22. Use manual installation below instead
 sudo dnf -y install https://rpm.nodesource.com/pub_0.12/fc/22/x86_64/nodejs-0.12.7-1nodesource.fc22.x86_64.rpm
 ```
 
+## intellij
+
+```
+cd /tmp/
+wget https://download.jetbrains.com/idea/ideaIC-14.1.4.tar.gz
+tar -zxvf idea*.gz
+rm idea*.gz
+sudo mv idea* /opt/idea
+sudo ln -s /opt/idea/bin/idea.sh /usr/local/bin/idea
+```
+
 ## dotfiles
 ```
 cd ~
