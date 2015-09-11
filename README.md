@@ -52,5 +52,5 @@ sudo tar -C /usr/local -xzf go*.tar.gz
 # dotfiles
 ```
 cd ~
-wget https://raw.githubusercontent.com/ptomasroos/home/master/.zshrc
+wget https://raw.githubusercontent.com/ptomasroos/home/master/.zshrc -O .zshrc
 ```
