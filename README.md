@@ -28,7 +28,7 @@ sudo reboot
 ## tools
 
 ```
-sudo dnf -y install git tig htop vim autojump
+sudo dnf -y install git tig htop vim autojump autojump-zsh
 cd /tmp
 wget https://github.com/atom/atom/releases/download/v1.0.11/atom.x86_64.rpm
 sudo dnf -y install atom*.rpm
