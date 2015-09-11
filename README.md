@@ -2,18 +2,6 @@
 
 This is the installation guide how to install Fedora according to my regular setup conventions.
 
-## update
-
-```
-sudo dnf -y update
-```
-
-## tools
-
-```
-sudo dnf -y install git tig htop
-sudo dnf -y install https://github.com/atom/atom/releases/download/v1.0.11/atom.x86_64.rpm
-```
 ## vmware tools
 
 This will remove the open vm tools and install proprietary vmware tools for enhanced experience in vmware workstation make sure that the disc is inserted via the UI
@@ -25,6 +13,19 @@ cp /run/media/*/VMware\ Tools/VMwareTools-9.9.2-2496486.tar.gz /tmp
 tar -zxvf VMwareTools*.tar.gz
 sudo ./vmware-tools-distrib/vmware-install.pl --default EULA_AGREED=yes
 sudo reboot
+```
+
+## update
+
+```
+sudo dnf -y update
+```
+
+## tools
+
+```
+sudo dnf -y install git tig htop
+sudo dnf -y install https://github.com/atom/atom/releases/download/v1.0.11/atom.x86_64.rpm
 ```
 
 ## i3
