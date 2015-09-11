@@ -79,9 +79,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# JAVA
-export JAVA_HOME="/usr/java/jdk1.8.0_51"
-
 # Go
 export GOPATH="/home/tomas/dev/go"
 export GOROOT="/usr/local/go"
