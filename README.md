@@ -7,6 +7,13 @@ This is the installation guide how to install Fedora according to my regular set
 ```
 dnf -y update
 ```
+
+## tools
+
+```
+sudo dnf -y install git tig htop
+sudo dnf -y install https://github.com/atom/atom/releases/download/v1.0.11/atom.x86_64.rpm
+```
 ## vmware tools
 
 This will remove the open vm tools and install proprietary vmware tools for enhanced experience in vmware workstation make sure that the disc is inserted via the UI
