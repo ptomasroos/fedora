@@ -2,6 +2,14 @@
 
 This is the installation guide how to install Fedora according to my regular setup conventions.
 
+## update
+
+Prefer to run this update proceedure through text-mode (e in grub + run level 3 at the end). The reason is I got a bunch of problem when trying to upgrade all packages through gnome.
+
+```
+sudo dnf -y update
+```
+
 ## vmware tools
 
 This will remove the open vm tools and install proprietary vmware tools for enhanced experience in vmware workstation make sure that the disc is inserted via the UI
@@ -13,12 +21,6 @@ cp /run/media/*/VMware\ Tools/VMwareTools-9.9.2-2496486.tar.gz /tmp
 tar -zxvf VMwareTools*.tar.gz
 sudo ./vmware-tools-distrib/vmware-install.pl --default EULA_AGREED=yes
 sudo reboot
-```
-
-## update
-
-```
-sudo dnf -y update
 ```
 
 ## tools
