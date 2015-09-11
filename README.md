@@ -5,7 +5,7 @@ This is the installation guide how to install Fedora according to my regular set
 ## update
 
 ```
-dnf -y update
+sudo dnf -y update
 ```
 
 ## tools
