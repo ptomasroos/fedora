@@ -17,7 +17,7 @@ This will remove the open vm tools and install proprietary vmware tools for enha
 ```
 sudo dnf -y remove open-vm*
 cd /tmp/
-cp /run/media/*/VMware\ Tools/VMwareTools-9.9.2-2496486.tar.gz /tmp
+cp /run/media/*/VMware\ Tools/VMwareTools*.tar.gz /tmp
 tar -zxvf VMwareTools*.tar.gz
 sudo ./vmware-tools-distrib/vmware-install.pl --default EULA_AGREED=yes
 sudo reboot
