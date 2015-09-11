@@ -61,10 +61,15 @@ sudo tar -C /usr/local -xzf go*.tar.gz
 ```
 
 ## node
-
+Regular install with 
 ```
 curl -sL https://rpm.nodesource.com/setup | bash -
 sudo yum install -y nodejs
+```
+does not work with Fedora 21 + 22. Use manual installation below instead
+
+```
+sudo dnf -y install https://rpm.nodesource.com/pub_0.12/fc/22/x86_64/nodejs-0.12.7-1nodesource.fc22.x86_64.rpm
 ```
 
 ## dotfiles
