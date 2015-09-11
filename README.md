@@ -33,7 +33,7 @@ sudo dnf -y install https://github.com/atom/atom/releases/download/v1.0.11/atom.
 Installing the I3 Window Manager and making sure to insert correct configuration
 
 ```
-sudo dnf -y install i3 i3status
+sudo dnf -y install i3 i3status i3-doc
 cd ~
 mkdir .i3
 wget https://raw.githubusercontent.com/ptomasroos/home/master/.i3/config -O .i3/config
