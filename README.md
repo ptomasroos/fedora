@@ -53,4 +53,5 @@ sudo tar -C /usr/local -xzf go*.tar.gz
 ```
 cd ~
 wget https://raw.githubusercontent.com/ptomasroos/home/master/.zshrc -O .zshrc
+sudo reboot
 ```
