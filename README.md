@@ -55,6 +55,13 @@ wget https://storage.googleapis.com/golang/go1.5.1.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go*.tar.gz
 ```
 
+## node
+
+```
+curl -sL https://rpm.nodesource.com/setup | bash -
+sudo yum install -y nodejs
+```
+
 # dotfiles
 ```
 cd ~
