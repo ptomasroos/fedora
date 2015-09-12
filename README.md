@@ -87,12 +87,23 @@ sudo mv idea* /opt/idea
 sudo ln -s /opt/idea/bin/idea.sh /usr/local/bin/idea
 ```
 
-##sublime
+## sublime
 ```
 cd /tmp/
 wget https://gist.githubusercontent.com/simonewebdesign/8507139/raw/bb380e1fb290f75458ec8aa8ec8ba2e1f259d81f/install_sublime_text.sh
 chmod +x install_sublime_text.sh
 sudo ./install_sublime_text.sh
+```
+
+## mysql
+```
+sudo rpm -Uvh mysql-community-release-fc22-5.noarch.rpm
+sudo rpm -Uvh mysql-workbench-community-6.3.4-1.fc22.x86_64.rpm
+dnf upgrade
+sudo dnf install mysql-community-server
+sudo service mysqld start
+sudo service mysqld status
+sudo dnf install mysql-workbench-community
 ```
 
 ## dotfiles
