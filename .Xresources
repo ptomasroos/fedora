@@ -1,0 +1,8 @@
+Xft.dpi: 180 <-- retina
+!Xft.dpi: 116
+Xft.antialias                : 1
+!Xft.hinting: true
+!Xft.rgba: rgb
+!Xft.autohint: false
+!Xft.hintstyle: hintslight
+!Xft.lcdfilter: lcddefault
