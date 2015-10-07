@@ -97,13 +97,12 @@ sudo ./install_sublime_text.sh
 
 ## mysql
 ```
-sudo rpm -Uvh mysql-community-release-fc22-5.noarch.rpm
-sudo rpm -Uvh mysql-workbench-community-6.3.4-1.fc22.x86_64.rpm
-dnf upgrade
-sudo dnf install mysql-community-server
+sudo dnf install \
+  https://dev.mysql.com/get/mysql-community-release-fc22-5.noarch.rpm \
+  mysql-community-server mysql-workbench-community
+
+sudo systemctl enable mysqld
 sudo service mysqld start
-sudo service mysqld status
-sudo dnf install mysql-workbench-community
 ```
 
 ## dotfiles
