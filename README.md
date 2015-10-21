@@ -1,4 +1,4 @@
-# Home
+# fedora
 
 This is the installation guide how to install Fedora according to my regular setup conventions.
 
