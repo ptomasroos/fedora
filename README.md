@@ -60,20 +60,15 @@ sudo reboot
 
 ```
 cd /tmp/
-wget https://storage.googleapis.com/golang/go1.5.1.linux-amd64.tar.gz
+wget https://storage.googleapis.com/golang/go1.9.1.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go*.tar.gz
 ```
 
 ## node
-Regular install with 
+Make sure to run curl cmd as root
 ```
-curl -sL https://rpm.nodesource.com/setup | bash -
+curl -sL https://rpm.nodesource.com/setup_8.x | bash -
 sudo yum install -y nodejs
-```
-does not work with Fedora 21 + 22. Use manual installation below instead
-
-```
-sudo dnf -y install https://rpm.nodesource.com/pub_0.12/fc/22/x86_64/nodejs-0.12.7-1nodesource.fc22.x86_64.rpm
 ```
 
 ## intellij
