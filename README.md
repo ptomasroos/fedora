@@ -90,11 +90,10 @@ chmod +x install_sublime_text.sh
 sudo ./install_sublime_text.sh
 ```
 
-## mysql
+## mysql + workbench
 ```
-sudo dnf install \
-  https://dev.mysql.com/get/mysql-community-release-fc22-5.noarch.rpm \
-  mysql-community-server mysql-workbench-community
+sudo dnf install https://dev.mysql.com/get/mysql57-community-release-fc26-10.noarch.rpm
+sudo dnf install https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-6.3.10-1.fc26.x86_64.rpm
 
 sudo systemctl enable mysqld
 sudo service mysqld start
