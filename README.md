@@ -90,7 +90,8 @@ chmod +x install_sublime_text.sh
 sudo ./install_sublime_text.sh
 ```
 
-## mysql + workbench
+
+## mysql + workbench (https://www.if-not-true-then-false.com/2010/install-mysql-on-fedora-centos-red-hat-rhel/)
 ```
 sudo dnf install https://dev.mysql.com/get/mysql57-community-release-fc26-10.noarch.rpm
 sudo dnf install https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-6.3.10-1.fc26.x86_64.rpm
