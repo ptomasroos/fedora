@@ -71,15 +71,15 @@ curl -sL https://rpm.nodesource.com/setup_8.x | bash -
 sudo yum install -y nodejs
 ```
 
-## intellij
+## goland
 
 ```
 cd /tmp/
-wget https://download.jetbrains.com/idea/ideaIC-14.1.4.tar.gz
-tar -zxvf idea*.gz
-rm idea*.gz
-sudo mv idea* /opt/idea
-sudo ln -s /opt/idea/bin/idea.sh /usr/local/bin/idea
+wget https://download.jetbrains.com/go/goland-181.3741.27.tar.gz
+tar -zxvf goland*.gz
+rm goland*.gz
+sudo mv GoLand* /opt/goland
+sudo ln -s /opt/goland/bin/goland.sh /usr/local/bin/goland
 ```
 
 ## sublime
