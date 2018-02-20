@@ -98,8 +98,8 @@ sudo dnf install https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workben
 sudo dnf install mysql-community-server
 sudo dnf install mysql-workbench-community
 
-sudo systemctl enable mysqld
-sudo service mysqld start
+systemctl start mysqld.service
+systemctl enable mysqld.service
 ```
 
 ## dotfiles
